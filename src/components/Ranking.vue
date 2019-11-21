@@ -5,6 +5,7 @@
                 <b-form-select
                         v-model="selected_clinica"
                         :options="clinicas"
+                        style="min-width: 345px;"
                 >
                 </b-form-select>
             </b-form-group>
@@ -48,15 +49,15 @@
                 resultados: [
                     {
                         Nombre: 'James',
-                        Puntaje: 5,
+                        Puntaje: 5.3,
                     },
                     {
                         Nombre: 'María',
-                        Puntaje: 3,
+                        Puntaje: 3.9,
                     },
                     {
                         Nombre: 'Saúl',
-                        Puntaje: 1,
+                        Puntaje: 1.2,
                     }
                 ],
             };
